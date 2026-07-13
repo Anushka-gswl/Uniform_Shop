@@ -1,0 +1,274 @@
+/* ==========================================
+                HEADER
+========================================== */
+
+header{
+
+    position:absolute;
+
+    top:25px;
+    left:0;
+    right:0;
+
+    z-index:1000;
+
+}
+
+
+/* ==========================================
+                NAVBAR
+========================================== */
+
+.navbar{
+
+    height:75px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 30px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.78);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.35);
+
+    box-shadow:0 12px 40px rgba(0,0,0,.08);
+
+}
+
+
+/* ==========================================
+                LOGO
+========================================== */
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.logo-img img{
+
+    width:60px;
+
+    height:60px;
+
+    object-fit:contain;
+
+}
+
+.logo-text{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.logo-text h2{
+
+    font-family:var(--heading-font);
+
+    font-size:1.45rem;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    line-height:1.1;
+
+}
+
+.logo-text span{
+
+    font-size:.82rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#6b7280;
+
+    margin-top:2px;
+
+}
+
+
+/* ==========================================
+            NAVIGATION
+========================================== */
+
+.nav-links{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+}
+
+.nav-links li{
+
+    position:relative;
+
+}
+
+.nav-links a{
+
+    font-size:.98rem;
+
+    color:#26334d;
+
+    font-weight:500;
+
+    transition:var(--transition);
+
+    position:relative;
+
+}
+
+
+/* underline animation */
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--primary);
+
+    transition:var(--transition);
+
+}
+
+.nav-links a:hover{
+
+    color:var(--primary);
+
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
+
+}
+
+
+/* ==========================================
+            NAV ACTIONS
+========================================== */
+
+.nav-actions{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+}
+
+
+/* ==========================================
+            SEARCH BUTTON
+========================================== */
+
+.search-btn{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:18px;
+
+    color:var(--primary);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:var(--transition);
+
+}
+
+.search-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 14px 25px rgba(0,0,0,.12);
+
+}
+
+
+/* ==========================================
+            CALL BUTTON
+========================================== */
+
+.call-now-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:15px 28px;
+
+    background:var(--primary);
+
+    color:white;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.call-now-btn:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 24px rgba(16,43,99,.25);
+
+}
+
+.call-now-btn i{
+
+    font-size:.95rem;
+
+}

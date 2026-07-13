@@ -1,0 +1,72 @@
+/* ==========================================
+            GOOGLE FONTS
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap');
+
+
+/* ==========================================
+            ROOT VARIABLES
+========================================== */
+
+:root{
+
+    /* ===== COLORS ===== */
+
+    --primary:#102B63;
+    --primary-dark:#081D47;
+    --primary-light:#4b8ff0;
+
+    --secondary:#F8FAFC;
+
+    --accent:#D4AF37;
+
+    --white:#FFFFFF;
+    --black:#111827;
+
+    --text:#374151;
+    --text-light:#6B7280;
+
+    --glass:rgba(255,255,255,.22);
+    --glass-border:rgba(255,255,255,.35);
+
+    /* ===== TYPOGRAPHY ===== */
+
+    --heading-font:'Poppins',sans-serif;
+    --body-font:'Inter',sans-serif;
+
+    --fs-xs:.85rem;
+    --fs-sm:1rem;
+    --fs-md:1.1rem;
+    --fs-lg:1.5rem;
+    --fs-xl:2.5rem;
+    --fs-xxl:4rem;
+
+    /* ===== SPACING ===== */
+
+    --space-xs:10px;
+    --space-sm:20px;
+    --space-md:30px;
+    --space-lg:50px;
+    --space-xl:80px;
+
+    /* ===== BORDER RADIUS ===== */
+
+    --radius-sm:12px;
+    --radius-md:20px;
+    --radius-lg:30px;
+    --radius-pill:999px;
+
+    /* ===== SHADOW ===== */
+
+    --shadow-soft:
+    0 10px 35px rgba(0,0,0,.08);
+
+    --shadow-lg:
+    0 20px 60px rgba(0,0,0,.12);
+
+    /* ===== TRANSITION ===== */
+
+    --transition:.35s ease;
+
+}
